@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  background-color: #404040;
+  height: 1080px;
+}
+.title{
+  font-size: 42px;
+  font-family: 'Aldrich';
+  color: whitesmoke;
+}
+.pomoClock{
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+}
+.timeDisplay{
+  background-color: #222;
+  color: #009900;
+  border: 1px solid #222;
+  border-radius: 2px;
+  width: 70%;
+  height: 30%;
+  margin: auto;
+  padding: 5px;
+  margin-top: 75px;
+  font-size: 44px;
+  font-family: 'Orbitron';
+}
+.controls{
+  display: flex;
+  margin: auto;
+  width: 60%;
+  font-family: 'Aldrich';
+}
+
+.btn{
+  margin: 5px;
+  width: 50%;
+}
+.btn-success{
+  background-color: #009900;
+}
+.btn-success:hover{
+  background-color: #008000;
+}
+.btn-warning{
+  background-color: #e67e00;
+}
+.btn-warning:hover{
+  background-color: #cc7000;
+}
+.hud{
+  width: 250px;
+  margin: auto;
+  color: #009900;
+  margin-top: 3px;
+  height: 100px;
+  background-color: #222;
+  border: 1px solid #392613;
+  border-radius: 2px;
+  font-family: 'Aldrich';
+}
+.settings {
+  width: 300px;
+  color: white;
+  height: 250px;
+  font-size: 22px;
+  font-family: 'Aldrich';
+  margin: auto;
+  margin-top: 3px;
+  border-radius: 3px;
+}
+.glyphicon{
+  color: #009900;
+}
